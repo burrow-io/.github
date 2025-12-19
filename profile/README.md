@@ -1,8 +1,8 @@
 # Overview
 
-Burrow is a self-hosted RAG pipeline designed to transform unstructured documents into vectorized formats for semantic search and retrieval. By automating document ingestion and vector embedding, Burrow enables teams to easily build production-grade RAG applications on their own infrastructure.
+Burrow is an open-source RAG-as-a-service platform that provides teams with a complete ETL pipeline and advanced retrieval techniques. By automating document processing and implementing production-grade retrieval methods, Burrow enables developers to easily integrate high-quality document retrieval into their RAG applications.
 
-The platform accepts documents through a user-provided interface, where they are uploaded to S3. Once a document is added, Burrow processes the content by extracting meaningful features and converting them into vector embeddings using AWS Bedrock. These embeddings are stored in a PostgreSQL database with pgvector, making them ready for semantic search and integration with downstream AI applications.
+The platform provides a web interface where documents are uploaded. Once a document is added, Burrow uses event-driven architecture to automatically spin up ECS Fargate tasks that parse, chunk, and convert the content into vector embeddings using AWS Bedrock. These embeddings are stored in a PostgreSQL database with pgvector and made available through query APIs that support keyword search, semantic search, reranking, and metadata filtering to retrieve the most relevant chunks for LLM generation.
 
 To learn more about Burrow, visit our [website](https://burrow-io.github.io/burrow-case-study/) and [case study](https://burrow-io.github.io/burrow-case-study/case-study).
 
