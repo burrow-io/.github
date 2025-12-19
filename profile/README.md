@@ -12,11 +12,21 @@ To get started deploying Burrow, visit our [instructions here](https://github.co
 
 Burrow is built with several different components:
 
-- **burrow-cli** - CLI to deploy Burrow's AWS infrastructure with just a few terminal commands.
-- **burrow-frontend** - React dashboard for uploading documents and querying your RAG pipeline.
-- **burrow-management-api** - Express.js API for document lifecycle management and authentication.
-- **burrow-query-api** - FastAPI service for semantic search and RAG query processing.
-- **burrow-ingestion** - Python pipeline for document parsing, chunking, and embedding generation.
-- **burrow-infrastructure** - Terraform configurations to provision all AWS resources.
-- **burrow-load-tests** - Performance testing suite to validate system scalability.
-- **burrow-case-study** - Technical documentation website with architecture deep-dives and design decisions.
+- [burrow-cli](https://github.com/burrow-io/burrow-cli) - CLI to deploy Burrow's AWS infrastructure with just a few terminal commands.
+- [burrow-frontend](https://github.com/burrow-io/burrow-frontend) - React dashboard for uploading documents and querying your RAG pipeline.
+- [burrow-management-api](https://github.com/burrow-io/burrow-management-api) - Express.js API for document lifecycle management and authentication.
+- [burrow-query-api](https://github.com/burrow-io/burrow-query-api) - FastAPI service for semantic search and RAG query processing.
+- [burrow-ingestion](https://github.com/burrow-io/burrow-ingestion) - Python pipeline for document parsing, chunking, and embedding generation.
+- [burrow-infrastructure](https://github.com/burrow-io/burrow-infrastructure) - Terraform configurations to provision all AWS resources.
+- [burrow-load-tests](https://github.com/burrow-io/burrow-load-tests) - Performance testing suite to validate system scalability.
+- [burrow-case-study](https://github.com/burrow-io/burrow-case-study) - Technical documentation website with architecture deep-dives and design decisions.
+
+## The Team
+
+[Zach Bajcar](https://github.com/ZBajcar) Software Engineer • Poughkeepsie, NY
+
+[Wilson Chen](https://github.com/wchen22) Software Engineer • New York City, NY
+
+[Daniela Pavlova](https://github.com/pavlovadb) Software Engineer • Sparks, NV
+
+[Trixy Fabrigar](https://github.com/t-fb) Software Engineer • Vancouver, BC
