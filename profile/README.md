@@ -16,7 +16,7 @@ Burrow is built with several different components:
 - [burrow-frontend](https://github.com/burrow-io/burrow-frontend) - React dashboard for uploading documents and querying your RAG pipeline.
 - [burrow-management-api](https://github.com/burrow-io/burrow-management-api) - Express.js API for document lifecycle management and authentication.
 - [burrow-query-api](https://github.com/burrow-io/burrow-query-api) - FastAPI service for semantic search and RAG query processing.
-- [burrow-ingestion](https://github.com/burrow-io/burrow-ingestion) - Python pipeline for document parsing, chunking, and embedding generation.
+- [burrow-ingestion](https://github.com/burrow-io/burrow-ingestion-task) - Python pipeline for document parsing, chunking, and embedding generation.
 - [burrow-infrastructure](https://github.com/burrow-io/burrow-infrastructure) - Terraform configurations to provision all AWS resources.
 - [burrow-load-tests](https://github.com/burrow-io/burrow-load-tests) - Performance testing suite to validate system scalability.
 - [burrow-case-study](https://github.com/burrow-io/burrow-case-study) - Technical documentation website with architecture deep-dives and design decisions.
