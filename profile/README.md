@@ -6,7 +6,7 @@ The platform provides a web interface where documents are uploaded. Once a docum
 
 To learn more about Burrow, visit our [website](https://burrow-io.github.io/) and [case study](https://burrow-io.github.io/case-study/).
 
-To get started deploying Burrow, visit our [instructions here](https://github.com/burrow-io/burrow-cli).
+To get started deploying Burrow, visit our [instructions here](https://github.com/burrow-io/burrow-cli/blob/main/README.md).
 
 ## Burrow Components
 
