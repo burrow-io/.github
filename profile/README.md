@@ -4,7 +4,7 @@ Burrow is an open-source RAG-as-a-service platform that provides teams with a co
 
 The platform provides a web interface where documents are uploaded. Once a document is added, Burrow uses event-driven architecture to automatically spin up ECS Fargate tasks that parse, chunk, and convert the content into vector embeddings using AWS Bedrock. These embeddings are stored in a PostgreSQL database with pgvector and made available through query APIs that support keyword search, semantic search, reranking, and metadata filtering to retrieve the most relevant chunks for LLM generation.
 
-To learn more about Burrow, visit our [website](https://burrow-io.github.io/burrow-case-study/) and [case study](https://burrow-io.github.io/burrow-case-study/case-study).
+To learn more about Burrow, visit our [website](https://burrow-io.github.io/burrow-case-study/) and [case study](https://burrow-io.github.io/case-study/).
 
 To get started deploying Burrow, visit our [instructions here](https://github.com/burrow-io/burrow-cli).
 
