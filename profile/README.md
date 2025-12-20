@@ -19,7 +19,7 @@ Burrow is built with several different components:
 - [burrow-ingestion](https://github.com/burrow-io/burrow-ingestion-task) - Python pipeline for document parsing, chunking, and embedding generation.
 - [burrow-infrastructure](https://github.com/burrow-io/burrow-infrastructure) - Terraform configurations to provision all AWS resources.
 - [burrow-load-tests](https://github.com/burrow-io/burrow-load-tests) - Performance testing suite to validate system scalability.
-- [burrow-case-study](https://github.com/burrow-io/burrow-case-study) - Technical documentation website with architecture deep-dives and design decisions.
+- [burrow-case-study](https://github.com/burrow-io/burrow-io.github.io) - Technical documentation website with architecture deep-dives and design decisions.
 
 ## The Team
 
